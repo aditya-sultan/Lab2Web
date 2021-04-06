@@ -16,7 +16,32 @@ Elemen Selector dideklarasikan berdasarkan tag HTML.
 # Class Selector dideklarasikan dengan menambahkan tanda titk (.) sebelum nama class yang akan
 digunakan. Kemudian pada tag HTML ditambahkan atribut class dengan value nama class tanpa
 menggunakan titik (.). Satu elemen HTML dapat diberikan lebih dari satu class.
+<head>
+<style>
+body {background-color:blue;}
+p {font-size:20px; color:mediumblue;}
+</style>
+</head>
 
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<p style="color:blue; font-size:20px;">Pemrograman Web Semester Ganjil</p>
+
+body {color:blue;}
+p {font-family:"sans-serif"}
+h1 {text-align:center;color:red';}
+p {
+text-aign:justify;
+color:green;
+font-size:12pt;
+}
+
+Deklarasi CSS
+.merah {color:red;}
+.serif {font-family:"sans-serif"}
+.rata-tengah {text-align:center; font-size:12pt;}
 # Penggunaan CSS
 <h1 class="merah">Heading berwarna Merah</h1>
 <p class="rata-tengah">Paragraf dengan rata tengah</>
