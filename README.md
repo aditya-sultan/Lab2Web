@@ -16,3 +16,12 @@ Elemen Selector dideklarasikan berdasarkan tag HTML.
 # Class Selector dideklarasikan dengan menambahkan tanda titk (.) sebelum nama class yang akan
 digunakan. Kemudian pada tag HTML ditambahkan atribut class dengan value nama class tanpa
 menggunakan titik (.). Satu elemen HTML dapat diberikan lebih dari satu class.
+
+# Penggunaan CSS
+<h1 class="merah">Heading berwarna Merah</h1>
+<p class="rata-tengah">Paragraf dengan rata tengah</>
+<p class"merah serif">paragraf dengan warna merah dan font serif</>
+# Modul Praktikum Pemrograman Web
+ID Selector dideklarasikan dengan menambahkan tanda # sebelum nama id yang akan digunakan.
+Kemudian pada tag HTML ditambahkan atribut id dengan value nama id tanpa menggunakan #.
+Satu elemen HTML hanya dapat diberikan satu id.
